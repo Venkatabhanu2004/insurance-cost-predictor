@@ -22,8 +22,8 @@ Make sure **Docker Desktop** is running.
 ```bash
 docker build -t insurance-predictor .
 
-docker run -it insurance-predictor python src/train.py
+docker run -it insurance-predictor python train_pipeline.py
 
-docker run -p 8501:8501 insurance-predictor streamlit run app/streamlit_app.py --server.port=8501 --server.address=0.0.0.0
+docker run -p 8501:8501 insurance-predictor streamlit run streamlit.py --server.port=8501 --server.address=0.0.0.0
 
  
