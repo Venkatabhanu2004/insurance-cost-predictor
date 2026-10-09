@@ -1,0 +1,72 @@
+2026-10-03 20:09:24,068 - INFO - ==========================================
+2026-10-03 20:09:24,069 - INFO - Regression Pipeline Started
+2026-10-03 20:09:24,069 - INFO - ==========================================
+2026-10-03 20:09:24,069 - INFO - Loading dataset from: artifacts/data/raw/health_insurance_cost_raw.csv
+2026-10-03 20:09:24,177 - INFO - Handling duplicate records
+2026-10-03 20:09:24,206 - INFO - Handling missing values
+2026-10-03 20:09:24,246 - INFO - Starting Full Regression EDA Execution
+2026-10-03 20:09:24,246 - INFO - Generating Univariate Numerical Distributions
+2026-10-03 20:09:27,685 - INFO - Saved numerical univariate chart to artifacts/visuals\Univariate Analysis - Numerical Variables Distribution.png
+2026-10-03 20:09:27,687 - INFO - Generating Univariate Categorical Composition
+2026-10-03 20:09:28,347 - INFO - Saved categorical univariate chart to artifacts/visuals\Univariate Analysis - Categorical Variables Composition.png
+2026-10-03 20:09:28,347 - INFO - Generating Bivariate Numerical Scatter Plots against Annual_Insurance_Cost
+2026-10-03 20:09:31,343 - INFO - Saved numerical bivariate scatter plots to artifacts/visuals\Bivariate Analysis - Numerical Variables vs Target Variable Scatter Plots.png
+2026-10-03 20:09:31,343 - INFO - Generating Bivariate Box Plots against Annual_Insurance_Cost
+2026-10-03 20:14:19,906 - INFO - Saved categorical bivariate box plots to artifacts/visuals\Bivariate Analysis - Categorical Variables vs Target Variable Box Plots.png
+2026-10-03 20:14:19,906 - INFO - Full Regression EDA Execution Completed Successfully
+2026-10-03 20:14:19,906 - INFO - Splitting features and target
+2026-10-03 20:14:19,909 - INFO - Encoding categorical variables
+2026-10-03 20:14:19,931 - INFO - Train-test split
+2026-10-03 20:14:19,951 - INFO - Training Random Forest Regressor
+2026-10-03 20:14:41,613 - INFO - Making predictions
+2026-10-03 20:14:41,807 - INFO - Evaluating regression model
+2026-10-03 20:14:41,815 - INFO - Saving model artifact to: artifacts/models/regression_rf_model.joblib
+2026-10-03 20:14:42,018 - INFO - Regression Pipeline completed successfully
+2026-10-03 20:16:26,444 - INFO - ==========================================
+2026-10-03 20:16:26,444 - INFO - Regression Pipeline Started
+2026-10-03 20:16:26,445 - INFO - ==========================================
+2026-10-03 20:16:26,445 - INFO - Loading dataset from: artifacts/data/raw/health_insurance_cost_raw.csv
+2026-10-03 20:16:26,532 - INFO - Handling duplicate records
+2026-10-03 20:16:26,577 - INFO - Handling missing values
+2026-10-03 20:16:26,639 - INFO - Starting Full Regression EDA Execution
+2026-10-03 20:16:26,640 - INFO - Generating Univariate Numerical Distributions
+2026-10-03 20:16:30,286 - INFO - Saved numerical univariate chart to artifacts/visuals\Univariate Analysis - Numerical Variables Distribution.png
+2026-10-03 20:16:30,286 - INFO - Generating Univariate Categorical Composition
+2026-10-03 20:16:30,866 - INFO - Saved categorical univariate chart to artifacts/visuals\Univariate Analysis - Categorical Variables Composition.png
+2026-10-03 20:16:30,866 - INFO - Generating Bivariate Numerical Scatter Plots against Annual_Insurance_Cost
+2026-10-03 20:16:34,710 - INFO - Saved numerical bivariate scatter plots to artifacts/visuals\Bivariate Analysis - Numerical Variables vs Target Variable Scatter Plots.png
+2026-10-03 20:16:34,711 - INFO - Generating Bivariate Box Plots against Annual_Insurance_Cost
+2026-10-03 20:16:36,366 - INFO - Saved categorical bivariate box plots to artifacts/visuals\Bivariate Analysis - Categorical Variables vs Target Variable Box Plots.png
+2026-10-03 20:16:36,367 - INFO - Full Regression EDA Execution Completed Successfully
+2026-10-03 20:16:36,367 - INFO - Splitting features and target
+2026-10-03 20:16:36,369 - INFO - Encoding categorical variables
+2026-10-03 20:16:36,391 - INFO - Train-test split
+2026-10-03 20:16:36,406 - INFO - Training Random Forest Regressor
+2026-10-03 20:16:49,600 - INFO - Making predictions
+2026-10-03 20:16:49,694 - INFO - Evaluating regression model
+2026-10-03 20:16:49,697 - INFO - Saving model artifact to: artifacts/models/regression_rf_model.joblib
+2026-10-03 20:16:49,834 - INFO - Regression Pipeline completed successfully
+2026-10-05 18:34:06,209 - INFO - ==========================================
+2026-10-05 18:34:06,209 - INFO - Regression Pipeline Started
+2026-10-05 18:34:06,209 - INFO - ==========================================
+2026-10-05 18:34:06,209 - INFO - Loading dataset from: artifacts/data/raw/health_insurance_cost_raw.csv
+2026-10-05 18:34:06,251 - INFO - Handling duplicate records
+2026-10-05 18:34:06,287 - INFO - Handling missing values
+2026-10-05 18:34:06,315 - INFO - Starting Full Regression EDA Execution
+2026-10-05 18:34:06,315 - INFO - Generating Univariate Numerical Distributions
+2026-10-05 18:34:08,245 - INFO - Saved numerical univariate chart to artifacts/visuals\Univariate Analysis - Numerical Variables Distribution.png
+2026-10-05 18:34:08,246 - INFO - Generating Univariate Categorical Composition
+2026-10-05 18:34:08,539 - INFO - Saved categorical univariate chart to artifacts/visuals\Univariate Analysis - Categorical Variables Composition.png
+2026-10-05 18:34:08,539 - INFO - Generating Bivariate Numerical Scatter Plots against Annual_Insurance_Cost
+2026-10-05 18:34:09,992 - INFO - Saved numerical bivariate scatter plots to artifacts/visuals\Bivariate Analysis - Numerical Variables vs Target Variable Scatter Plots.png
+2026-10-05 18:34:09,992 - INFO - Generating Bivariate Box Plots against Annual_Insurance_Cost
+2026-10-05 18:34:10,838 - INFO - Saved categorical bivariate box plots to artifacts/visuals\Bivariate Analysis - Categorical Variables vs Target Variable Box Plots.png
+2026-10-05 18:34:10,838 - INFO - Full Regression EDA Execution Completed Successfully
+2026-10-05 18:34:10,839 - INFO - Splitting features and target
+2026-10-05 18:34:10,840 - INFO - Encoding categorical variables
+2026-10-05 18:34:10,847 - INFO - Train-test split
+2026-10-05 18:34:10,853 - INFO - Training Random Forest Regressor
+2026-10-05 18:34:17,172 - INFO - Making predictions
+2026-10-05 18:34:17,233 - INFO - Evaluating regression model
+2026-10-05 18:34:17,244 - INFO - Saving model artifact to: artifacts/models/regression_rf_model.joblib
+2026-10-05 18:34:17,300 - INFO - Regression Pipeline completed successfully
